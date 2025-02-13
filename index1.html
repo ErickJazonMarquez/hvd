@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="style1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>from erick — to haya</title>
+
+<div class="container">
+  <div class="valentines">
+    <div class="envelope"></div>
+    <div class="front"></div>
+    <div class="card">
+      <div class="text">
+        happy valentine's day, haya!<br>
+        pls take care of yourself more.<br>
+        good luck with your acad endeavors.<br>
+        tell hida i said hi :>>
+      </div>
+      <div class="heart"></div>
+    </div>
+    <div class="hearts">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="four"></div>
+      <div class="five"></div>
+    </div>
+  </div>
+  <div class="shadow"></div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $('.container').mouseenter(function () {
+      $('.card').stop().animate({
+        top: '-150px'
+      }, 'slow');
+    }).mouseleave(function () {
+      $('.card').stop().animate({
+        top: 0
+      }, 'slow');
+    });
+  });
+</script>

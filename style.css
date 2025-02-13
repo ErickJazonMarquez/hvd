@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 233, 199);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: rgb(255, 78, 78);
+    border: none;
+    max-width: 100px;
+    max-height: 30px;
+    border-radius: 10px;
+    position: relative;
+}
